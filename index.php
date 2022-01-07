@@ -22,10 +22,10 @@
         elseif($operator == "-"){
             echo $num1 - $num2;
         }
-        elseif($operator == "/"){
+        elseif($operator == "/" || $operator == ":"){
             echo $num1 / $num2;
         }
-        elseif($operator == "*"){
+        elseif($operator == "*" || $operator == "x" || $operator == "X"){
             echo $num1 * $num2;
         }
         else{
